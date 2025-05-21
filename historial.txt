@@ -1,0 +1,7 @@
+* 8aa5a19 UPD: modificado archivo modificar.txt con una nueva linea
+* 253aa25 DEL: eliminado archivo borrar.txt
+* 8fd8b06 DEL: eliminado archivo borrar.txt
+* 3d0f468 ADD: agregado archivp borrar.txt para ejercicio de eliminacion
+* 44c979f ADD: agregado 2do ejercicio sobre directorios y tarea.txt
+* 81ed069 ADD: agregado 1er ejercicio sobre datos_usuarios.txt
+* ed920e4 Initial commit
