@@ -1,0 +1,151 @@
+pwd
+mkdir -p repogit
+cd repogit
+pwd
+ls -l
+git clone git@github.com:mtssama/TP_AySO.git
+pwd
+cd
+pwd
+ls -l ~/.ssh/
+rm -f ~/.ssh/id_rsa.pub ~/.ssh/id_dsa ~/.ssh/id_dsa.pub~/.ssh/id_ecdsa ~/.ssh/id_ecdsa.pub ~/.ssh/id_ed25519 ~/.ssh/id_ed25519.pub ~/.ssh/examen_aso ~/.ssh/examen_aso.pub ~/.ssh/repogit ~/.ssh/repogit.pub ~/.ssh/known_hosts
+ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -N ""
+cat ~/.ssh/id_ed25519.pub
+cd /home/vagrant/repogit
+pwd
+git clone git@github.com:mtssama/TP_AySO.git
+rm -rf TP_AySO
+git clone git@github.com:mtssama/TP_AySO.git
+pwd
+rm -rf TP_AySO
+git clone git@github.com:mtssama/TP_AySO.git
+cd
+pwd
+rm -f ~/.ssh/id_rsa ~/.ssh/id_rsa.pub ~/.ssh/id_dsa ~/.ssh/id_dsa.pub ~/.ssh/id_ecdsa ~/.ssh/id_ecdsa.pub ~/.ssh/id_ed25519 ~/.ssh/id_ed25519.pub ~/.ssh/examen_aso ~/.examen_aso.pub ~/.ssh/repogit ~/.ssh/repogit.pub~/.ssh/know_hosts
+ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -N ""
+cat ~/.ssh/id_ed25519.pub
+psw
+pwd
+cd /home/vagrant/repogit
+pwd
+rm -rf TP_AySO
+git clone git@github.com:mtssama/TP_AySO.git
+cd
+cat ~/.ssh/id_ed25519.pub
+cd
+pwd
+cd /home/vagrant/repogit
+rm -rf TP_AySO
+git clone git@github.com:mtssama/TP_AySO.git
+rm -rf TP_AySO
+git clone git@github.com:mtssama/TP_AySO.git
+cd TP_AySO
+ls -l
+git clone httpsP
+git clone https://github.com/mtssama/TP_AySO
+ls -l
+cd TP_AySO
+ls -l
+cat /etc/os-release
+man grep
+HOME_URL
+grep -i "HOME_URL" /etc/os-release > datos_url.txt
+cat datos_url.txt
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+git config --global user.email "mateosamaniego9@gmail.com"
+git config --global user.name "mtssama"
+git add datos_url.txt datos_usuario.txt README.md
+git status
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git push
+GIT PUSH
+git push
+pwd
+mkdir material materia2 materia3
+ls -l
+touch material/tarea.txt
+touch materia2/tarea.txt
+touch materia3/tarea.txt
+ls -l material/
+ls -l material2/
+ls -l materia2/
+ls -l materia3/
+git status
+git add material/materia2/materia3
+git add material/ materia2/ materia3
+git status
+git commit -m "ADD: agregado 2do ejercicio sobre directorios y tarea.txt"
+git push
+pwd
+touch borrar.txt
+ls -l
+git add borrar.txt
+git status
+git commit -m "ADD: agregado archivp borrar.txt para ejercicio de eliminacion"
+git push
+rm borrar.txt
+ls -l
+git add borrar.txt
+git status
+git commit -m "DEL: eliminado archivo borrar.txt"
+git push
+pwd
+echo "Este es el contenido inicial del archivo" > modificar.txt
+cat modificar.txt
+ls -l modificar.txt
+git add modificar.txt
+git status
+git commit -m "DEL: eliminado archivo borrar.txt"
+git commit -m "ADD: agregado archivo modificar.txt con contenido inicial"
+git push
+PWD
+echo "Esta es una nueva linea de texto despues de la modificacion" >> modificar.txt
+cat modificar.txt
+git status
+git add modificar.txt
+git status
+git commit -m "UPD: modificado archivo modificar.txt con una nueva linea"
+git push
+pwd
+git log --oneline --graph --all > historial.txt
+cat historial.txt
+git add historial.txt
+git status
+git commit -m "ADD: agregado historial de commits a historial.txt"
+git push
+PDW
+psw
+pdw
+pwd
+pdw
+psw
+pwd
+rm -rf material materia2 materia3
+ls -l
+mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+ls _R
+ls -R
+git add .
+git commit -m "ADD: creada estructura de directorios material y materia2 segun consigna"
+git push
+pwd
+echo '#!/bin/bash' > scrip_dir.sh
+echo 'mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}' >> scrip_dir.sh
+cat script_dir.sh
+rm scrip_dir.sh
+echo '#!/bin/bash' > script_dir.sh
+echo 'mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}' >> script_dir.sh
+cat script_dir.sh
+ls -l script_dir.sh
+chmod +* script_dir.sh
+chmod +x script_dir.sh
+ls -l script_dir.sh
+git add .
+git commit -m "ADD: Agregando script"
+git push
+history -a
+cp ~/.bash_history Historial_comandos_<Samaniego>.txt
+pwd
+history -a
